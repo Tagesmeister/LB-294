@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(error => {
             // Handle login failure error message
             console.error('Login error:', error);
-            alert('Login failed. Please check your credentials.');
+            alert('Login fehlgeschlagen, Überprüfe deine Anmeldedaten.');
         });
     });
 });
